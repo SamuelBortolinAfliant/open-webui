@@ -112,7 +112,7 @@
 									{#if document?.metadata?.page}
 										<span class="text-xs text-gray-500 dark:text-gray-400">
 											({$i18n.t('page')}
-											{document.metadata.page + 1})
+											{document.metadata.page})
 										</span>
 									{/if}
 								</div>
